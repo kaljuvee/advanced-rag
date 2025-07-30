@@ -1,0 +1,41 @@
+test_id,original_text,cleaned_text,original_length,cleaned_length,reduction_percentage,config,timestamp
+text_1_config_1,"This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.","This is a SAMPLE text with extra spaces, special characters , and inconsistent formatting.",97,90,7.216494845360824,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.915894
+text_1_config_2,"This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.","This is a SAMPLE text with extra spaces, special characters @#$%, and inconsistent formatting.",97,94,3.0927835051546393,"{'remove_special': False, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.915929
+text_1_config_3,"This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.","This is a SAMPLE text with    extra spaces, special characters , and inconsistent formatting.",97,93,4.123711340206185,"{'remove_special': True, 'normalize_spaces': False, 'remove_urls': True}",2025-07-30T02:08:39.915941
+text_1_config_4,"This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.","This is a SAMPLE text with extra spaces, special characters , and inconsistent formatting.",97,90,7.216494845360824,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': False}",2025-07-30T02:08:39.915952
+text_2_config_1,Another text with URLs like https://example.com and email@domain.com that need cleaning.,Another text with URLs like and that need cleaning.,88,51,42.04545454545455,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.915970
+text_2_config_2,Another text with URLs like https://example.com and email@domain.com that need cleaning.,Another text with URLs like and that need cleaning.,88,51,42.04545454545455,"{'remove_special': False, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.915982
+text_2_config_3,Another text with URLs like https://example.com and email@domain.com that need cleaning.,Another text with URLs like  and  that need cleaning.,88,53,39.77272727272727,"{'remove_special': True, 'normalize_spaces': False, 'remove_urls': True}",2025-07-30T02:08:39.915995
+text_2_config_4,Another text with URLs like https://example.com and email@domain.com that need cleaning.,Another text with URLs like httpsexample.com and emaildomain.com that need cleaning.,88,84,4.545454545454546,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': False}",2025-07-30T02:08:39.916012
+text_3_config_1,"Text with
+
+multiple
+
+line breaks and    excessive    whitespace.",Text with multiple line breaks and excessive whitespace.,64,56,12.5,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916027
+text_3_config_2,"Text with
+
+multiple
+
+line breaks and    excessive    whitespace.",Text with multiple line breaks and excessive whitespace.,64,56,12.5,"{'remove_special': False, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916037
+text_3_config_3,"Text with
+
+multiple
+
+line breaks and    excessive    whitespace.","Text with
+
+multiple
+
+line breaks and    excessive    whitespace.",64,64,0.0,"{'remove_special': True, 'normalize_spaces': False, 'remove_urls': True}",2025-07-30T02:08:39.916045
+text_3_config_4,"Text with
+
+multiple
+
+line breaks and    excessive    whitespace.",Text with multiple line breaks and excessive whitespace.,64,56,12.5,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': False}",2025-07-30T02:08:39.916052
+text_4_config_1,UPPERCASE TEXT that needs normalization and cleaning!!!,UPPERCASE TEXT that needs normalization and cleaning!!!,55,55,0.0,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916063
+text_4_config_2,UPPERCASE TEXT that needs normalization and cleaning!!!,UPPERCASE TEXT that needs normalization and cleaning!!!,55,55,0.0,"{'remove_special': False, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916073
+text_4_config_3,UPPERCASE TEXT that needs normalization and cleaning!!!,UPPERCASE TEXT that needs normalization and cleaning!!!,55,55,0.0,"{'remove_special': True, 'normalize_spaces': False, 'remove_urls': True}",2025-07-30T02:08:39.916080
+text_4_config_4,UPPERCASE TEXT that needs normalization and cleaning!!!,UPPERCASE TEXT that needs normalization and cleaning!!!,55,55,0.0,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': False}",2025-07-30T02:08:39.916086
+text_5_config_1,Mixed content: Visit www.example.com or email support@company.org for help.,Mixed content Visit www.example.com or email for help.,75,54,28.000000000000004,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916099
+text_5_config_2,Mixed content: Visit www.example.com or email support@company.org for help.,Mixed content: Visit www.example.com or email for help.,75,55,26.666666666666668,"{'remove_special': False, 'normalize_spaces': True, 'remove_urls': True}",2025-07-30T02:08:39.916109
+text_5_config_3,Mixed content: Visit www.example.com or email support@company.org for help.,Mixed content Visit www.example.com or email  for help.,75,55,26.666666666666668,"{'remove_special': True, 'normalize_spaces': False, 'remove_urls': True}",2025-07-30T02:08:39.916117
+text_5_config_4,Mixed content: Visit www.example.com or email support@company.org for help.,Mixed content Visit www.example.com or email supportcompany.org for help.,75,73,2.666666666666667,"{'remove_special': True, 'normalize_spaces': True, 'remove_urls': False}",2025-07-30T02:08:39.916125

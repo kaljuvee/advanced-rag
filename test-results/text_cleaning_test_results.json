@@ -1,0 +1,282 @@
+[
+  {
+    "test_id": "text_1_config_1",
+    "original_text": "This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.",
+    "cleaned_text": "This is a SAMPLE text with extra spaces, special characters , and inconsistent formatting.",
+    "original_length": 97,
+    "cleaned_length": 90,
+    "reduction_percentage": 7.216494845360824,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915894"
+  },
+  {
+    "test_id": "text_1_config_2",
+    "original_text": "This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.",
+    "cleaned_text": "This is a SAMPLE text with extra spaces, special characters @#$%, and inconsistent formatting.",
+    "original_length": 97,
+    "cleaned_length": 94,
+    "reduction_percentage": 3.0927835051546393,
+    "config": {
+      "remove_special": false,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915929"
+  },
+  {
+    "test_id": "text_1_config_3",
+    "original_text": "This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.",
+    "cleaned_text": "This is a SAMPLE text with    extra spaces, special characters , and inconsistent formatting.",
+    "original_length": 97,
+    "cleaned_length": 93,
+    "reduction_percentage": 4.123711340206185,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": false,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915941"
+  },
+  {
+    "test_id": "text_1_config_4",
+    "original_text": "This is a SAMPLE text with    extra spaces, special characters @#$%, and inconsistent formatting.",
+    "cleaned_text": "This is a SAMPLE text with extra spaces, special characters , and inconsistent formatting.",
+    "original_length": 97,
+    "cleaned_length": 90,
+    "reduction_percentage": 7.216494845360824,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": false
+    },
+    "timestamp": "2025-07-30T02:08:39.915952"
+  },
+  {
+    "test_id": "text_2_config_1",
+    "original_text": "Another text with URLs like https://example.com and email@domain.com that need cleaning.",
+    "cleaned_text": "Another text with URLs like and that need cleaning.",
+    "original_length": 88,
+    "cleaned_length": 51,
+    "reduction_percentage": 42.04545454545455,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915970"
+  },
+  {
+    "test_id": "text_2_config_2",
+    "original_text": "Another text with URLs like https://example.com and email@domain.com that need cleaning.",
+    "cleaned_text": "Another text with URLs like and that need cleaning.",
+    "original_length": 88,
+    "cleaned_length": 51,
+    "reduction_percentage": 42.04545454545455,
+    "config": {
+      "remove_special": false,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915982"
+  },
+  {
+    "test_id": "text_2_config_3",
+    "original_text": "Another text with URLs like https://example.com and email@domain.com that need cleaning.",
+    "cleaned_text": "Another text with URLs like  and  that need cleaning.",
+    "original_length": 88,
+    "cleaned_length": 53,
+    "reduction_percentage": 39.77272727272727,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": false,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.915995"
+  },
+  {
+    "test_id": "text_2_config_4",
+    "original_text": "Another text with URLs like https://example.com and email@domain.com that need cleaning.",
+    "cleaned_text": "Another text with URLs like httpsexample.com and emaildomain.com that need cleaning.",
+    "original_length": 88,
+    "cleaned_length": 84,
+    "reduction_percentage": 4.545454545454546,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": false
+    },
+    "timestamp": "2025-07-30T02:08:39.916012"
+  },
+  {
+    "test_id": "text_3_config_1",
+    "original_text": "Text with\n\nmultiple\n\nline breaks and    excessive    whitespace.",
+    "cleaned_text": "Text with multiple line breaks and excessive whitespace.",
+    "original_length": 64,
+    "cleaned_length": 56,
+    "reduction_percentage": 12.5,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916027"
+  },
+  {
+    "test_id": "text_3_config_2",
+    "original_text": "Text with\n\nmultiple\n\nline breaks and    excessive    whitespace.",
+    "cleaned_text": "Text with multiple line breaks and excessive whitespace.",
+    "original_length": 64,
+    "cleaned_length": 56,
+    "reduction_percentage": 12.5,
+    "config": {
+      "remove_special": false,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916037"
+  },
+  {
+    "test_id": "text_3_config_3",
+    "original_text": "Text with\n\nmultiple\n\nline breaks and    excessive    whitespace.",
+    "cleaned_text": "Text with\n\nmultiple\n\nline breaks and    excessive    whitespace.",
+    "original_length": 64,
+    "cleaned_length": 64,
+    "reduction_percentage": 0.0,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": false,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916045"
+  },
+  {
+    "test_id": "text_3_config_4",
+    "original_text": "Text with\n\nmultiple\n\nline breaks and    excessive    whitespace.",
+    "cleaned_text": "Text with multiple line breaks and excessive whitespace.",
+    "original_length": 64,
+    "cleaned_length": 56,
+    "reduction_percentage": 12.5,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": false
+    },
+    "timestamp": "2025-07-30T02:08:39.916052"
+  },
+  {
+    "test_id": "text_4_config_1",
+    "original_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "cleaned_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "original_length": 55,
+    "cleaned_length": 55,
+    "reduction_percentage": 0.0,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916063"
+  },
+  {
+    "test_id": "text_4_config_2",
+    "original_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "cleaned_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "original_length": 55,
+    "cleaned_length": 55,
+    "reduction_percentage": 0.0,
+    "config": {
+      "remove_special": false,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916073"
+  },
+  {
+    "test_id": "text_4_config_3",
+    "original_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "cleaned_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "original_length": 55,
+    "cleaned_length": 55,
+    "reduction_percentage": 0.0,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": false,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916080"
+  },
+  {
+    "test_id": "text_4_config_4",
+    "original_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "cleaned_text": "UPPERCASE TEXT that needs normalization and cleaning!!!",
+    "original_length": 55,
+    "cleaned_length": 55,
+    "reduction_percentage": 0.0,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": false
+    },
+    "timestamp": "2025-07-30T02:08:39.916086"
+  },
+  {
+    "test_id": "text_5_config_1",
+    "original_text": "Mixed content: Visit www.example.com or email support@company.org for help.",
+    "cleaned_text": "Mixed content Visit www.example.com or email for help.",
+    "original_length": 75,
+    "cleaned_length": 54,
+    "reduction_percentage": 28.000000000000004,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916099"
+  },
+  {
+    "test_id": "text_5_config_2",
+    "original_text": "Mixed content: Visit www.example.com or email support@company.org for help.",
+    "cleaned_text": "Mixed content: Visit www.example.com or email for help.",
+    "original_length": 75,
+    "cleaned_length": 55,
+    "reduction_percentage": 26.666666666666668,
+    "config": {
+      "remove_special": false,
+      "normalize_spaces": true,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916109"
+  },
+  {
+    "test_id": "text_5_config_3",
+    "original_text": "Mixed content: Visit www.example.com or email support@company.org for help.",
+    "cleaned_text": "Mixed content Visit www.example.com or email  for help.",
+    "original_length": 75,
+    "cleaned_length": 55,
+    "reduction_percentage": 26.666666666666668,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": false,
+      "remove_urls": true
+    },
+    "timestamp": "2025-07-30T02:08:39.916117"
+  },
+  {
+    "test_id": "text_5_config_4",
+    "original_text": "Mixed content: Visit www.example.com or email support@company.org for help.",
+    "cleaned_text": "Mixed content Visit www.example.com or email supportcompany.org for help.",
+    "original_length": 75,
+    "cleaned_length": 73,
+    "reduction_percentage": 2.666666666666667,
+    "config": {
+      "remove_special": true,
+      "normalize_spaces": true,
+      "remove_urls": false
+    },
+    "timestamp": "2025-07-30T02:08:39.916125"
+  }
+]

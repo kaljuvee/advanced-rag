@@ -1,0 +1,13 @@
+test_id,document_id,original_length,chunk_count,avg_chunk_size,chunk_method,chunk_size,overlap,timestamp
+doc_1_config_1,1,619,7,97.0,Fixed Size,100,10,2025-07-30T02:08:39.916161
+doc_1_config_2,1,619,4,169.75,Fixed Size,200,20,2025-07-30T02:08:39.916169
+doc_1_config_3,1,619,4,154.5,Recursive,150,15,2025-07-30T02:08:39.916248
+doc_1_config_4,1,619,4,154.0,Sentence-based,200,25,2025-07-30T02:08:39.916270
+doc_2_config_1,2,493,6,90.5,Fixed Size,100,10,2025-07-30T02:08:39.916279
+doc_2_config_2,2,493,3,177.66666666666666,Fixed Size,200,20,2025-07-30T02:08:39.916285
+doc_2_config_3,2,493,4,123.0,Recursive,150,15,2025-07-30T02:08:39.916305
+doc_2_config_4,2,493,2,246.0,Sentence-based,200,25,2025-07-30T02:08:39.916328
+doc_3_config_1,3,418,5,91.6,Fixed Size,100,10,2025-07-30T02:08:39.916339
+doc_3_config_2,3,418,3,152.66666666666666,Fixed Size,200,20,2025-07-30T02:08:39.916344
+doc_3_config_3,3,418,2,209.5,Recursive,150,15,2025-07-30T02:08:39.916363
+doc_3_config_4,3,418,2,208.5,Sentence-based,200,25,2025-07-30T02:08:39.916376

@@ -1,0 +1,298 @@
+[
+  {
+    "test_id": "doc_1_config_1",
+    "document_id": 1,
+    "original_length": 619,
+    "chunk_count": 7,
+    "chunk_sizes": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      79
+    ],
+    "avg_chunk_size": 97.0,
+    "config": {
+      "size": 100,
+      "overlap": 10,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algo",
+      "nt of algorithms and statistical models that enable computer systems to improve their performance on",
+      "ormance on a specific task through experience. Machine learning algorithms build a model based on tr",
+      "ased on training data in order to make predictions or decisions without being explicitly programmed ",
+      "rogrammed to do so. Machine learning is closely related to computational statistics, which focuses o",
+      " focuses on making predictions using computers. The study of mathematical optimization delivers meth",
+      "ivers methods, theory and application domains to the field of machine learning."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916161"
+  },
+  {
+    "test_id": "doc_1_config_2",
+    "document_id": 1,
+    "original_length": 619,
+    "chunk_count": 4,
+    "chunk_sizes": [
+      200,
+      200,
+      200,
+      79
+    ],
+    "avg_chunk_size": 169.75,
+    "config": {
+      "size": 200,
+      "overlap": 20,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computer systems to improve their performance on a specifi",
+      "ormance on a specific task through experience. Machine learning algorithms build a model based on training data in order to make predictions or decisions without being explicitly programmed to do so. ",
+      "rogrammed to do so. Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theor",
+      "ivers methods, theory and application domains to the field of machine learning."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916169"
+  },
+  {
+    "test_id": "doc_1_config_3",
+    "document_id": 1,
+    "original_length": 619,
+    "chunk_count": 4,
+    "chunk_sizes": [
+      226,
+      152,
+      117,
+      123
+    ],
+    "avg_chunk_size": 154.5,
+    "config": {
+      "size": 150,
+      "overlap": 15,
+      "method": "Recursive"
+    },
+    "chunks": [
+      "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience.",
+      "Machine learning algorithms build a model based on training data in order to make predictions or decisions without being explicitly programmed to do so.",
+      "Machine learning is closely related to computational statistics, which focuses on making predictions using computers.",
+      "The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. ."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916248"
+  },
+  {
+    "test_id": "doc_1_config_4",
+    "document_id": 1,
+    "original_length": 619,
+    "chunk_count": 4,
+    "chunk_sizes": [
+      226,
+      152,
+      117,
+      121
+    ],
+    "avg_chunk_size": 154.0,
+    "config": {
+      "size": 200,
+      "overlap": 25,
+      "method": "Sentence-based"
+    },
+    "chunks": [
+      "Machine learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience.",
+      "Machine learning algorithms build a model based on training data in order to make predictions or decisions without being explicitly programmed to do so.",
+      "Machine learning is closely related to computational statistics, which focuses on making predictions using computers.",
+      "The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916270"
+  },
+  {
+    "test_id": "doc_2_config_1",
+    "document_id": 2,
+    "original_length": 493,
+    "chunk_count": 6,
+    "chunk_sizes": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      43
+    ],
+    "avg_chunk_size": 90.5,
+    "config": {
+      "size": 100,
+      "overlap": 10,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Deep learning is part of a broader family of machine learning methods based on artificial neural net",
+      "neural networks with representation learning. Learning can be supervised, semi-supervised or unsuper",
+      "or unsupervised. Deep learning architectures such as deep neural networks, deep belief networks, rec",
+      "works, recurrent neural networks and convolutional neural networks have been applied to fields inclu",
+      "elds including computer vision, speech recognition, natural language processing, machine translation",
+      "ranslation, bioinformatics and drug design."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916279"
+  },
+  {
+    "test_id": "doc_2_config_2",
+    "document_id": 2,
+    "original_length": 493,
+    "chunk_count": 3,
+    "chunk_sizes": [
+      200,
+      200,
+      133
+    ],
+    "avg_chunk_size": 177.66666666666666,
+    "config": {
+      "size": 200,
+      "overlap": 20,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised. Dee",
+      "or unsupervised. Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including compu",
+      "elds including computer vision, speech recognition, natural language processing, machine translation, bioinformatics and drug design."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916285"
+  },
+  {
+    "test_id": "doc_2_config_3",
+    "document_id": 2,
+    "original_length": 493,
+    "chunk_count": 4,
+    "chunk_sizes": [
+      135,
+      60,
+      296,
+      1
+    ],
+    "avg_chunk_size": 123.0,
+    "config": {
+      "size": 150,
+      "overlap": 15,
+      "method": "Recursive"
+    },
+    "chunks": [
+      "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning.",
+      "Learning can be supervised, semi-supervised or unsupervised.",
+      "Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics and drug design.",
+      "."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916305"
+  },
+  {
+    "test_id": "doc_2_config_4",
+    "document_id": 2,
+    "original_length": 493,
+    "chunk_count": 2,
+    "chunk_sizes": [
+      196,
+      296
+    ],
+    "avg_chunk_size": 246.0,
+    "config": {
+      "size": 200,
+      "overlap": 25,
+      "method": "Sentence-based"
+    },
+    "chunks": [
+      "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised.",
+      "Deep learning architectures such as deep neural networks, deep belief networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics and drug design."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916328"
+  },
+  {
+    "test_id": "doc_3_config_1",
+    "document_id": 3,
+    "original_length": 418,
+    "chunk_count": 5,
+    "chunk_sizes": [
+      100,
+      100,
+      100,
+      100,
+      58
+    ],
+    "avg_chunk_size": 91.6,
+    "config": {
+      "size": 100,
+      "overlap": 10,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial int",
+      "ficial intelligence concerned with the interactions between computers and human language, in particu",
+      "in particular how to program computers to process and analyze large amounts of natural language data",
+      "guage data. The goal is a computer capable of understanding the contents of documents, including the",
+      "luding the contextual nuances of the language within them."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916339"
+  },
+  {
+    "test_id": "doc_3_config_2",
+    "document_id": 3,
+    "original_length": 418,
+    "chunk_count": 3,
+    "chunk_sizes": [
+      200,
+      200,
+      58
+    ],
+    "avg_chunk_size": 152.66666666666666,
+    "config": {
+      "size": 200,
+      "overlap": 20,
+      "method": "Fixed Size"
+    },
+    "chunks": [
+      "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to",
+      "in particular how to program computers to process and analyze large amounts of natural language data. The goal is a computer capable of understanding the contents of documents, including the contextua",
+      "luding the contextual nuances of the language within them."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916344"
+  },
+  {
+    "test_id": "doc_3_config_3",
+    "document_id": 3,
+    "original_length": 418,
+    "chunk_count": 2,
+    "chunk_sizes": [
+      281,
+      138
+    ],
+    "avg_chunk_size": 209.5,
+    "config": {
+      "size": 150,
+      "overlap": 15,
+      "method": "Recursive"
+    },
+    "chunks": [
+      "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
+      "The goal is a computer capable of understanding the contents of documents, including the contextual nuances of the language within them. ."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916363"
+  },
+  {
+    "test_id": "doc_3_config_4",
+    "document_id": 3,
+    "original_length": 418,
+    "chunk_count": 2,
+    "chunk_sizes": [
+      281,
+      136
+    ],
+    "avg_chunk_size": 208.5,
+    "config": {
+      "size": 200,
+      "overlap": 25,
+      "method": "Sentence-based"
+    },
+    "chunks": [
+      "Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.",
+      "The goal is a computer capable of understanding the contents of documents, including the contextual nuances of the language within them."
+    ],
+    "timestamp": "2025-07-30T02:08:39.916376"
+  }
+]

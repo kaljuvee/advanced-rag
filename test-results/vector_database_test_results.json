@@ -1,0 +1,142 @@
+{
+  "status_tests": [
+    {
+      "database": "Faiss",
+      "available": true,
+      "status": "Ready",
+      "description": "CPU-based similarity search library by Facebook AI",
+      "timestamp": "2025-07-30T02:08:48.462768"
+    },
+    {
+      "database": "ChromaDB",
+      "available": true,
+      "status": "Ready",
+      "description": "Open-source embedding database",
+      "timestamp": "2025-07-30T02:08:48.462785"
+    },
+    {
+      "database": "Weaviate",
+      "available": true,
+      "status": "Needs Setup",
+      "description": "Cloud-native vector database (requires credentials)",
+      "timestamp": "2025-07-30T02:08:48.462788"
+    }
+  ],
+  "faiss_tests": [
+    {
+      "test": "faiss_initialization",
+      "success": true,
+      "available": true,
+      "timestamp": "2025-07-30T02:08:48.462892"
+    },
+    {
+      "test": "faiss_add_documents",
+      "success": true,
+      "documents_added": 5,
+      "execution_time": 0.0034601688385009766,
+      "timestamp": "2025-07-30T02:08:48.466363"
+    },
+    {
+      "test": "faiss_search",
+      "query": "machine learning algorithms",
+      "results_count": 3,
+      "execution_time": 0.00014400482177734375,
+      "top_score": 1.0,
+      "timestamp": "2025-07-30T02:08:48.466519"
+    },
+    {
+      "test": "faiss_search",
+      "query": "neural networks deep learning",
+      "results_count": 3,
+      "execution_time": 5.9604644775390625e-05,
+      "top_score": 0.5141878128051758,
+      "timestamp": "2025-07-30T02:08:48.466584"
+    },
+    {
+      "test": "faiss_search",
+      "query": "natural language processing",
+      "results_count": 3,
+      "execution_time": 5.841255187988281e-05,
+      "top_score": 0.5484134554862976,
+      "timestamp": "2025-07-30T02:08:48.466646"
+    }
+  ],
+  "chromadb_tests": [
+    {
+      "test": "chromadb_initialization",
+      "success": true,
+      "available": true,
+      "timestamp": "2025-07-30T02:08:48.756232"
+    },
+    {
+      "test": "chromadb_add_documents",
+      "success": true,
+      "documents_added": 5,
+      "execution_time": 0.008167505264282227,
+      "timestamp": "2025-07-30T02:08:48.764415"
+    },
+    {
+      "test": "chromadb_search",
+      "query": "machine learning algorithms",
+      "results_count": 3,
+      "execution_time": 0.002986907958984375,
+      "top_score": 1.0,
+      "timestamp": "2025-07-30T02:08:48.767417"
+    },
+    {
+      "test": "chromadb_search",
+      "query": "neural networks deep learning",
+      "results_count": 3,
+      "execution_time": 0.0011370182037353516,
+      "top_score": 0.05518531799316406,
+      "timestamp": "2025-07-30T02:08:48.768564"
+    },
+    {
+      "test": "chromadb_search",
+      "query": "natural language processing",
+      "results_count": 3,
+      "execution_time": 0.0009009838104248047,
+      "top_score": 0.176558256149292,
+      "timestamp": "2025-07-30T02:08:48.769475"
+    }
+  ],
+  "weaviate_tests": [
+    {
+      "test": "weaviate_initialization",
+      "success": true,
+      "available": true,
+      "needs_setup": true,
+      "timestamp": "2025-07-30T02:08:48.769530"
+    },
+    {
+      "test": "weaviate_add_documents",
+      "success": true,
+      "documents_added": 5,
+      "note": "Simulated operation",
+      "timestamp": "2025-07-30T02:08:48.769535"
+    },
+    {
+      "test": "weaviate_search",
+      "query": "machine learning",
+      "results_count": 3,
+      "note": "Simulated operation",
+      "timestamp": "2025-07-30T02:08:48.769546"
+    }
+  ],
+  "benchmark_tests": [
+    {
+      "test": "benchmark_comparison",
+      "query": "machine learning algorithms",
+      "total_execution_time": 0.0065975189208984375,
+      "databases_tested": 3,
+      "successful_databases": 3,
+      "timestamp": "2025-07-30T02:08:48.776163",
+      "detailed_results": {
+        "Faiss": {
+          "results": [
+            {
+              "id": "doc_1",
+              "title": "Introduction to Machine Learning",
+              "content": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data without being explicitly programmed.",
+              "category": "AI/ML",
+              "embedding": 

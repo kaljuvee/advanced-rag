@@ -1,0 +1,13 @@
+{
+  "test_suite": "Indexing Optimization",
+  "total_tests": 32,
+  "text_cleaning_tests": 20,
+  "chunking_tests": 12,
+  "timestamp": "2025-07-30T02:08:39.924106",
+  "results_files": [
+    "text_cleaning_test_results.csv",
+    "text_cleaning_test_results.json",
+    "chunking_test_results.csv",
+    "chunking_test_results.json"
+  ]
+}
